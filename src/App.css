@@ -1,0 +1,27 @@
+
+.counter-digits { 
+  display: grid;
+  grid-template-columns: repeat(8, 20px);
+  gap: 2px;
+}
+
+.counter-col {
+  width: 20px;
+}
+
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 2px;
+}
+
+.filled.box {
+  background-color: green;
+}
+
+.col-label {
+  text-align: center;
+}
